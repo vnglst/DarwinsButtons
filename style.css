@@ -1,0 +1,23 @@
+#app > button {
+  margin: 4vw;
+}
+
+button:hover {
+  animation: active 400ms ease-in-out 1 both;
+}
+
+button:active {
+  animation: active 400ms ease-in-out 1 both;
+}
+
+@keyframes active {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.06);
+  }
+  100% {
+    transform: scale(1.05);
+  }
+}
